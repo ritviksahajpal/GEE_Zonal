@@ -8,7 +8,6 @@ import io
 import sys, os
 from .catalog import Catalog
 from .gee_helpers import gpd_to_gee
-ee.Initialize()
 
 class ZonalStats(object):
     """
